@@ -1,0 +1,51 @@
+/* CSS Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.navbar{
+    background-color:springgreen;
+    padding: 20px;
+}
+.navbar > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+}
+.navbar > ul > a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* different style of border */
+.navbar > ul > a > li{
+    padding: 10px;
+}
+/* solid border */
+.navbar > ul > a > .home{
+    border: 2px solid black;   
+}
+/* dashed border */
+.navbar > ul > a > .About{
+    border: 2px dashed black;
+}
+/* dotted border */
+.navbar > ul > a > .contact{
+    border: 2px dotted black;
+}
+/* outset border */
+.navbar > ul > a > .blog{
+    border: 2px outset red;
+}
+/* inset border */
+.navbar > ul > a > .login{
+    border: 2px inset yellow;
+}
+.navbar > ul > a:hover{
+    color:red;
+}

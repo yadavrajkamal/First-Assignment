@@ -1,0 +1,21 @@
+/* Using External CSS */
+
+.main{
+    display: flex;
+    width: 100%;
+}
+div{
+    height: 300px;
+    width: 300px;
+    padding-left: 2rem;
+    margin-left: 2rem;
+}
+.first_div{
+    background-color: chartreuse;
+}
+.second_div{
+    background-color: aqua;
+}
+.third_div{
+    background-color: yellow;
+}

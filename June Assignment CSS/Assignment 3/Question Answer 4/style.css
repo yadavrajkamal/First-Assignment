@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 2rem;
+    width: 100%;
+    color: rgb(167, 154, 154);
+    justify-content: space-between;
+}
+.nav > img{
+    width: 80px;
+}
+.nav > ul{
+    display: flex;
+    list-style: none;
+}
+.nav > ul > li{
+    padding-right: 4rem;
+    cursor: pointer;
+}
+.nav > ul > .first_list{
+    color: white;
+    font-weight: bold;
+}
+.nav > ul > button{
+padding: 0.5rem;
+margin-top: -0.5rem;
+border-radius: 10px;
+background: none;
+border: 2px solid yellow;
+color: yellow;
+}
+h1{
+    padding-top: 1rem;
+}
+.nav > ul > button:hover{
+color: aqua;
+background-color: antiquewhite;
+border: 2px solid aqua;
+}

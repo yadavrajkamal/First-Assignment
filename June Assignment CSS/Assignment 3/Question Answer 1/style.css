@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    border: 2px solid black;
+}
+div{
+    text-align: center;
+}
+
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: relative;
+    top: 200px;
+    left: 200px;    
+}
+.div2{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: -30px; 
+    top: -30px;
+}
+.div3{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    right: -30px;
+    top: -30px; 
+}
+.div4{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: -30px;
+    bottom: -30px; 
+}
+.div5{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    right: -30px;
+    bottom: -30px; 
+}

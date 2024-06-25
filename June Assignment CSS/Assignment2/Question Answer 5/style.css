@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.google{
+    border: 2px solid red;
+}
+.google > img{
+    width: 30rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+} 
+.google > p{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    font-family: "Montserrat", sans-serif;
+}  
