@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using var function</title>
+    <style>
+        :root{
+            --primary-color:#00b7ff;
+            --secondary-color: #6c757d;
+        }
+        #primary_btn{
+            background-color: var(--primary-color);
+        }
+        #secondary_btn{
+            background-color: var(--secondary-color);
+        }
+        .btn{
+            border: none;
+            padding: 10px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="button">
+        <button class="btn" id="primary_btn">Primary Button</button>
+        <button class="btn" id="secondary_btn">Secondary Button</button>
+    </div>
+</body>
+</html>
